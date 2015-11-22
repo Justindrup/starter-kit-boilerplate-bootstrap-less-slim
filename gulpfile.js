@@ -74,9 +74,18 @@ gulp.task('slim', function(){
 });
 
 
+//jshint
 
+var jshint  = require('gulp-jshint'),
+    stylish = require('jshint-stylish');
 
-
+// Busca errores en el JS y nos los muestra por pantalla
+gulp.task('jshint', function() {
+  return gulp.src('./dist/js/main.js')
+    .pipe(jshint('.jshintrc'))
+    .pipe(jshint.reporter('jshint-stylish'))
+    .pipe(jshint.reporter('fail'));
+});
 
 
 // live reload 
@@ -93,6 +102,7 @@ gulp.task('watch', function() {
   gulp.watch(['./dist/**/*.html'], ['html']);
   gulp.watch(['./src/**/*.less'], ['less']);
   gulp.watch(['./src/compiled/*.css'], ['autoprefixer']);
+  gulp.watch(['./dist/**/*.js'], ['jshint']);
   gulp.watch(['./src/slim/*.slim'], ['slim']);
 });
 

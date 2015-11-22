@@ -1,9 +1,11 @@
 /*
 Fichero JSON que nos permite comprobar errores tanto de código como de sintaxis, uso de variables, o estilo en nuestro código JavaScript según guardamos los archivos. Combinado con un gestor de tareas, como Gulp,  nos permite un desarrollo ágil de nuestros proyectos.
 
+Fragmento de:  “Desarrollo web ágil con ÁngularJS ”. iBooks. de Carlos Azaustre
+
 */
 
-
+/*
 {
   "node": true,
   "browser": true,
@@ -28,3 +30,4 @@ Fichero JSON que nos permite comprobar errores tanto de código como de sintaxis
     "angular": false
   }
 }
+*/
