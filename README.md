@@ -8,17 +8,17 @@ Tiene instalado Gulp como automatizador de tareas.
 
 ## Dependencias
 
-connect-history-api-fallback
-gulp-jshint
-gulp-useref
-gulp-if
-gulp-uglify
-gulp-minify-css
-gulp-less-dependents
-gulp-less
-bootstrap-less
-gulp-autoprefixer
-gulp-livereload
+connect-history-api-fallback.
+gulp-jshint.
+gulp-useref.
+gulp-if.
+gulp-uglify.
+gulp-minify-css.
+gulp-less-dependents.
+gulp-less.
+bootstrap-less.
+gulp-autoprefixer.
+gulp-livereload.
 
 
 
