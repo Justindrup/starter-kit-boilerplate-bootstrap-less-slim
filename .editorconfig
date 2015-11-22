@@ -1,0 +1,21 @@
+/*
+
+".editorconfig nos permite configurar nuestro editor de texto para que todos los desarrolladores del mismo proyecto que lo utilicen, tengan en el código el mismo espaciado, tabulación, etc...”
+
+Fragmento de:  “Desarrollo web ágil con ÁngularJS ”. iBooks. de Carlos Azaustre
+
+ */
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+indent_style = tab

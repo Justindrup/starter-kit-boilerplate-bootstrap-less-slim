@@ -1,0 +1,13 @@
+{
+  "name": "less-slim-boilerplate",
+  "version": "0.0.1",
+  "description": "Base Starter Kit ",
+  "author": "Justo Izquierdo",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    
+  }
+}
