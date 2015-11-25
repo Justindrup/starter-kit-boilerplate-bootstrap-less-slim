@@ -1,0 +1,106 @@
+html{
+    font-size: 62.5%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+body {
+  padding-top: 0;
+  font-family: @fontFamily;
+  color: @fontColorBody;
+  margin-top: 0;
+  .fsize(@bodySize);
+
+}
+
+
+h1, .h1, h2, .h2, h3, .h3{
+  line-height: 1.2;
+  margin-top: 20px;
+
+}
+
+
+h1, .h1 {
+  .fsize(@h1-size);
+  margin-top: @h1-size*1.3px;
+  margin-bottom: @h1-size*0.5px;
+  
+}
+
+h2, .h2 {
+  .fsize(@h2-size);
+  margin-top: @h2-size*1.3px;
+  margin-bottom: @h2-size*0.7px;
+  
+ 
+}
+
+h3, .h3 {
+  .fsize(@h3-size);
+  margin-top: @h3-size*1.3px;
+  margin-bottom: @h3-size*0.7px;
+  
+}
+h4,
+.h4 {
+  .fsize(@h4-size);
+  line-height: 1.2;
+  margin-top: @h4-size*1.3px;
+  margin-bottom: @h4-size*0.7px;
+}
+
+h5,
+.h5 {
+  .fsize(@h5-size);
+  margin-top: @h5-size*1.3px;
+  margin-bottom: @h5-size*0.5px;
+  
+}
+
+h6,
+.h6 {
+  
+  .fsize(@h6-size);
+  margin-top: @h6-size*1.3px;
+  margin-bottom: @h6-size*0.5px;
+  
+}
+
+p,
+.lead,
+li,
+.p {
+
+  
+}
+a {
+
+  text-decoration: underline;
+}
+a:hover {
+
+
+}
+b,
+strong,
+.b {
+  /*font-weight:700;*/
+  font-weight: bold;
+}

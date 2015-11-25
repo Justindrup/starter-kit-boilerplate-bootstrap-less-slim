@@ -1,3 +1,4 @@
+
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -5,35 +6,59 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
-   Base styles: opinionated defaults
+   utils
    ========================================================================== */
 
+  @import 'utils/variables.less';
+  //@import 'utils/functions.less';
+  @import 'utils/mixins.less';
+  //@import 'utils/placeholders.less';
+/* ==========================================================================
+   vendors
+   ========================================================================== */
+   @import 'vendors/bootstrap-index.less';
+   //@import 'vendors/jquery-ui';
+   @import 'vendors/base-styles-main-boilerplate';
+   
 
-@import url('base-styles-main-boilerplate.less');
+/* ==========================================================================
+   base
+   ========================================================================== */
+   @import 'base/reset';
+   @import 'base/behaviors-class.less';
+   @import 'base/typography';
 
 
 /* ==========================================================================
-   Author's custom styles
+   layout
    ========================================================================== */
 
-/*------------------------------------*\
-    $BOOTSTRAP
-\*------------------------------------*/
+    //@import 'layout/navigation';
+    //@import 'layout/header';
+    //@import 'layout/footer';
+    //@import 'layout/sidebar';
+    //@import 'layout/forms';
 
+/* ==========================================================================
+   component
+   ========================================================================== */
 
-@import "bootstrap-index.less";
+    //@import 'components/buttons';
+    //@import 'components/carousel';
+    //@import 'components/cover';
+    //@import 'components/dropdown';
+/* ==========================================================================
+   pages
+   ========================================================================== */
 
-
-
-
-
-
-/*------------------------------------*\
-    $CONTENIDO
-\*------------------------------------*/
-
+    //@import 'pages/home';
+    //@import 'pages/contact';
+/* ==========================================================================
+   themes
+   ========================================================================== */
+    //@import 'themes/theme';
+    //@import 'themes/admin';
 
 
 
@@ -48,4 +73,4 @@
    Helper classes
    ========================================================================== */
 
-@import url('helper-classes-main-boilerplate.less');
+@import url('vendors/helper-classes-main-boilerplate.less');

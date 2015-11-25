@@ -1,0 +1,62 @@
+
+
+//textos
+.textos-upper(){
+  text-transform: uppercase !important;
+}
+
+.fsize(@tamano){
+   font-size: @tamano/1px; 
+  font-size: @tamano/10rem;
+   
+    }
+ .lheight(@tamano){ 
+    line-height: @tamano/1px;
+    line-height: @tamano/10rem;
+    }
+
+
+
+
+.fondo-repeat(@url){
+  background-image: url(@url);
+}
+
+.back-image(@img, @repeat, @pos-x, @pos-y) {
+  background-image: url(../img/@img);
+  background-repeat: @repeat;
+  background-position: @pos-x @pos-y;
+
+}
+
+
+.margin-auto(){
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.position-absolute(@top: 0, @left: 0){
+    position: absolute; 
+    top: @top;
+    left: @left;
+    width: 100%;
+}
+.paddingver(@top, @bottom){  
+  padding-top: @top*1px;
+    padding-bottom: @bottom*1px;
+    }
+
+.marginver(@top, @bottom){  
+  margin-top: @top*1px;
+    margin-bottom: @bottom*1px;
+    }
+
+
+
+
+.img-responsive(){
+  display: block;
+    height: auto;
+    max-width: 100%;
+}
+
